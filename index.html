@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter Using HTML</title>
+    <style>
+      #header {
+        color: white;
+        margin-top: 80px;
+        font-size: 40px;
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      body {
+        background: #000;
+        margin-left: 40px;
+      }
+      .mid-div {
+        padding: 10px;
+        justify-items: auto;
+      }
+      .btn {
+        width: 100px;
+        height: 40px;
+        display: inline-block;
+        margin-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header><h1 id="header">Counter using HTML</h1></header>
+
+    <div>
+      <p style="color: white; text-decoration: underline; font-size: large">
+        Your Current Count is : <span id="counter"> 0 </span>
+      </p>
+      <p id="alert-text" style="color: red"></p>
+    </div>
+
+    <div class="mid-div">
+      <button id="decrement" class="btn">Decrement</button>
+      <button id="increment" class="btn">Increment</button>
+      <button
+        id="clear"
+        class="btn"
+        style="background-color: black; color: white; border: solid 1px"
+      >
+        Clear
+      </button>
+    </div>
+    <script src=" script.js"></script>
+  </body>
+</html>
